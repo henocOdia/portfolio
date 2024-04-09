@@ -1,0 +1,14 @@
+.acceuil{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.acceuil> h1{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    color: azure;
+}
