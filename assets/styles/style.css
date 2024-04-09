@@ -2,6 +2,7 @@
 @import url(second.css);
 @import url(navbar.css);
 @import url(projet.css);
+@import url(skills.css);
 
 body{
     background: rgb(34,34,175);
