@@ -10,15 +10,6 @@
     justify-content: center;
 }
   
-.card{
-    width: 30%;
-    height: auto;
-    background-color: #1D1D75;
-    border-radius: 20px;
-    margin: 1rem;
-    padding: 1rem;
-}
-
 .content .h2{
     color: azure;
 }
