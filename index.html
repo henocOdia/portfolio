@@ -25,53 +25,90 @@
               <li><a href="#presentation">A propos</a></li>
               <li><a href="#projets">Mes Projets</a></li>
               <li><a href="#competences">Compétences</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
     </header>
     <main>
         <section class="acceuil">
             <h1>Henoc</h1>
+            <h2>Web-Developper en devenir.</h2>
         </section>
         <section class="main_card" id="presentation">
           <div class="cards">
-            <div class="card">
+            <div class="card-1">
               <div class="content">
-                <h2>Titre</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Velit at officia quo necessitatibus voluptatibus maxime provident 
+                <h2 style="color: azure;">Un peu de moi</h2>
+                <p style="color: azure;">J'ai 19 ans. Je suis actuellement en formation à l'EM Lyon dans le programme de La Toile.
+                  J'ai pour objectif de devenir développeur Web
                 </p>
               </div>
             </div>
-            <div class="card">
+            <div class="card-2">
               <div class="content">
-                <h2>Titre</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Velit at officia quo necessitatibus voluptatibus maxime provident 
-                </p>
+                <h2 style="color: azure;">Formations</h2>
+                <ul>
+                  <li style="color: azure;">2019-2022 Lycée Ampère : Bac STMG option Gestion-Finance</li>
+                  <li style="color: azure;">2024 La Toile</li>
+                </ul>
               </div>
             </div>
           </div>
         </section>
         <section id="projets">
-          <div>
-            
+          <div class="cards_containers">
+              <div class="card-3">
+                <h2 style="color: azure;">Projet n°1</h2>
+                <p style="color: azure;">Je veux intégrer une école d'informatique afin de continuer mes études</p>
+              </div>
+              <div class="card-4">
+                <h2 style="color: azure;">Projet n°2</h2>
+                <p style="color: azure;">Je souhaite devenir Web-Developper Front-end ou  bien dans le monde du jeu vidéo</p>
+              </div>
+            <div class="card-5">
+              <h2 style="color: azure;">Projet n°3</h2>
+              <p style="color: azure;">Un  jour j'aimerais travailler à mon propre compte ou bien créer une entreprise</p>
+            </div>
           </div>
+
         </section>
         <section class="main_card" id="competences">
          <div class="cards">
-          <div class="card">
-            <p>HTML <progress value="15" max="100" data-tooltip="15%"/></p>
-            <p>CSS <progress value="15" max="100" data-tooltip="15%"/></p>
+          <div class="card-6">
+            <p data-tooltip="15%">HTML <progress value="15" max="100" /></p>
+            <p data-tooltip="15%">CSS <progress value="15" max="100" /></p>
+            <p data-tooltip="50%">Pack Office <progress value="50" max="100" /></p>
           </div>
-          <div class="card">
+          <div class="card-7">
             <h2>Soft Skills</h2>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Curieux</li>
+              <li>Attentif</li>
+              <li>Rigoureux</li>
+              <li>Autonome</li>
             </ul>
           </div>
          </div>
+        </section>
+        <section id="contact">
+          <div class="form">
+             <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              autoComplete="email"
+              aria-label="Email"
+              aria-describedby="email-helper"
+              />
+
+              <textarea
+               name="bio"
+               placeholder="Votre message"
+               aria-label="Professional short bio">
+              </textarea>
+
+              <input type="button" value="Envoyer"/>
+          </div>
         </section>
     </main>
 </body>
