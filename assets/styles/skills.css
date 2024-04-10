@@ -2,6 +2,14 @@
     height: 100vh;
 }
 
-progress{
-    width: 200px;
+#competences> .cards{
+    display: flex;
+}
+
+#competences> .cards>.card{
+    width: 50%;
+}
+
+.card >progress{
+    width: 20%;
 }
