@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.container> nav{    margin: 0 2rem 0 2rem;
+.container> nav{
     border-radius: 50px;
     background-color: rgb(255 255 255 / 30%);
     backdrop-filter: blur(10px);

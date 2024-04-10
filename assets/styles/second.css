@@ -8,8 +8,24 @@
 .main_card .cards{
     display: flex;
     justify-content: center;
+    height: 80%;
 }
-  
-.content .h2{
-    color: azure;
+
+.card-1{
+    width: 30%;
+    height: 55%;
+    background-color: #3A3B9C;
+    border-radius: 20px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 11px 9px rgba(0,0,0,0.1);
+}
+.card-2{
+    width: 40%;
+    height: 50%;
+    background-color: #3A3B9C;
+    border-radius: 20px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 11px 9px rgba(0,0,0,0.1);
 }
